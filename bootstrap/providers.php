@@ -1,6 +1,7 @@
 <?php
 
-	return [
-		App\Providers\AppServiceProvider::class,
-		Spatie\Permission\PermissionServiceProvider::class,
-	];
+return [
+    App\Providers\AppServiceProvider::class,
+    App\Providers\Filament\AdminPanelProvider::class,
+    Spatie\Permission\PermissionServiceProvider::class,
+];
